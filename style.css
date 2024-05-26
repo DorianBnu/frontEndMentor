@@ -108,14 +108,15 @@ p {
 @media (max-width: 1000px) {
     .container {
         width: 100%;
-
         border-radius: 0;
     }
-
     .mainImage {
         width: 100%;
         height: auto;
         padding: 0;
+    }
+    .mainImage img {
+        border-radius: O;
     }
     body{
         margin: 0;
